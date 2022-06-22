@@ -6,13 +6,13 @@
 
 body {
     background-color: rgb(31, 31, 31);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
  
-.header {
+header {
     background-image: url('./images/forest-background.jpg');
     background-size: cover;
     background-position: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 300px;
     width: 100%;
     padding: 20px;
@@ -22,13 +22,26 @@ body {
 
 h1 {
     border-style: double;
+    border-radius: 100px;
     text-align: center;
+}
+
+#family {
+    display: flex;
+    margin: 50px;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 24px;
+    background-color: rgb(7, 63, 7);
 }
 
-li{
-
+a {
+    text-decoration: none;
+    color: white;
 }
