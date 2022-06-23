@@ -63,10 +63,24 @@ aside {
     padding-top: 20px;
     margin-top: 20px;
     margin-left: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: start;
 }
 
 aside h2 {
     color: white;
     text-align: center;
+}
 
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+article section p {
+color: white;
+text-align: center;
 }
