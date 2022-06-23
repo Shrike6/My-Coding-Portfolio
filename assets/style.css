@@ -19,6 +19,9 @@ header {
     border: 5px solid black;
 
 }
+header img {
+    border-radius: 50%;
+}
 
 h1 {
     border-style: double;
@@ -37,11 +40,33 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
-    font-size: 24px;
+    font-size: 20px;
     background-color: rgb(7, 63, 7);
 }
 
-a {
+nav a {
     text-decoration: none;
     color: white;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(7, 63, 7);
+    height: 300px;
+    width: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+aside h2 {
+    color: white;
+    text-align: center;
+
 }
